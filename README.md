@@ -122,10 +122,14 @@ $ ./console.py
 f641eac7-16d4-4dca-851f-12590d7c8ddd
 (hbnb)
 (hbnb) show User 1e32232d-5a63-4d92-8092-ac3240b29f46
-[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591), 'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}
+[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12
+590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591),
+'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}
 (hbnb)
 (hbnb) User.show(f641eac7-16d4-4dca-851f-12590d7c8ddd)
-[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591), 'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}
+[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-
+12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591),
+'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}
 (hbnb)
 ```
 * **destroy**
@@ -166,13 +170,52 @@ fe25b797-5be4-43ef-a74b-e603ee66a9b0
 78073e0e-e652-49bc-a929-596c89de04be
 (hbnb)
 (hbnb) all BaseModel
-["[BaseModel] (c51022f7-a3ab-4e7e-82a4-893ef08be813) {'id': 'c51022f7-a3ab-4e7e-82a4-893ef08be813', 'created_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778364), 'updated_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778374)}", "[BaseModel] (3b6ab950-8ee2-466f-99bb-09cf3f5b2eab) {'id': '3b6ab950-8ee2-466f-99bb-09cf3f5b2eab', 'created_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605601), 'updated_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605608)}", "[BaseModel] (a28fc3de-8bf8-4d50-9908-ee55ba2b55d1) {'id': 'a28fc3de-8bf8-4d50-9908-ee55ba2b55d1', 'created_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820860), 'updated_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820867)}", "[BaseModel] (35f4e77f-d1b6-4cd6-8e15-100122cc075d) {'id': '35f4e77f-d1b6-4cd6-8e15-100122cc075d', 'created_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216947), 'updated_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216956)}"]
+["[BaseModel] (c51022f7-a3ab-4e7e-82a4-893ef08be813) {'id': 'c51022f7-a3ab-4e7e-
+82a4-893ef08be813', 'created_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 7783
+64), 'updated_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778374)}",
+"[BaseModel] (3b6ab950-8ee2-466f-99bb-09cf3f5b2eab) {'id': '3b6ab950-8ee2-466f
+-99bb-09cf3f5b2eab', 'created_at': datetime.datetime(2023, 3, 8, 12, 13, 6,
+605601), 'updated_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605608)}",
+"[BaseModel] (a28fc3de-8bf8-4d50-9908-ee55ba2b55d1) {'id': 'a28fc3de-8bf8-4d50-
+9908-ee55ba2b55d1', 'created_at': datetime.datetime(2023, 3, 8, 12, 52, 17,
+820860), 'updated_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820867)}",
+"[BaseModel] (35f4e77f-d1b6-4cd6-8e15-100122cc075d) {'id': '35f4e77f-d1b6-4cd6-
+8e15-100122cc075d', 'created_at': datetime.datetime(2023, 3, 8, 12, 53, 24,
+216947), 'updated_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216956)}"]
 (hbnb)
 (hbnb) User.all()
-["[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591), 'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}", "[User] (fe25b797-5be4-43ef-a74b-e603ee66a9b0) {'id': 'fe25b797-5be4-43ef-a74b-e603ee66a9b0', 'created_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121355), 'updated_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121363)}", "[User] (78073e0e-e652-49bc-a929-596c89de04be) {'id': '78073e0e-e652-49bc-a929-596c89de04be', 'created_at': datetime.datetime(2023, 3, 8, 13, 5, 9, 178703), 'updated_at': datetime.datetime(2023, 3, 8, 13, 5, 9, 178710)}"]
+["[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f
+-12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591),
+ 'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}", "[User]
+(fe25b797-5be4-43ef-a74b-e603ee66a9b0) {'id': 'fe25b797-5be4-43ef-a74b-e603ee66a
+9b0', 'created_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121355), 'updated
+_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121363)}", "[User] (78073e0e-
+e652-49bc-a929-596c89de04be) {'id': '78073e0e-e652-49bc-a929-596c89de04be',
+'created_at': datetime.datetime(2023, 3, 8, 13, 5, 9, 178703), 'updated_at':
+datetime.datetime(2023, 3, 8, 13, 5, 9, 178710)}"]
 (hbnb)
 (hbnb) all
-["[BaseModel] (c51022f7-a3ab-4e7e-82a4-893ef08be813) {'id': 'c51022f7-a3ab-4e7e-82a4-893ef08be813', 'created_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778364), 'updated_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778374)}", "[BaseModel] (3b6ab950-8ee2-466f-99bb-09cf3f5b2eab) {'id': '3b6ab950-8ee2-466f-99bb-09cf3f5b2eab', 'created_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605601), 'updated_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605608)}", "[User] (f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12590d7c8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591), 'updated_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}", "[BaseModel] (a28fc3de-8bf8-4d50-9908-ee55ba2b55d1) {'id': 'a28fc3de-8bf8-4d50-9908-ee55ba2b55d1', 'created_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820860), 'updated_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820867)}", "[BaseModel] (35f4e77f-d1b6-4cd6-8e15-100122cc075d) {'id': '35f4e77f-d1b6-4cd6-8e15-100122cc075d', 'created_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216947), 'updated_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216956)}", "[User] (fe25b797-5be4-43ef-a74b-e603ee66a9b0) {'id': 'fe25b797-5be4-43ef-a74b-e603ee66a9b0', 'created_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121355), 'updated_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121363)}", "[User] (78073e0e-e652-49bc-a929-596c89de04be) {'id': '78073e0e-e652-49bc-a929-596c89de04be', 'created_at': datetime.datetime(2023, 3, 8, 13, 5, 9, 178703), 'updated_at': datetime.datetime(2023, 3, 8, 13, 5, 9, 178710)}"]
+["[BaseModel] (c51022f7-a3ab-4e7e-82a4-893ef08be813) {'id': 'c51022f7-a3ab-4e7e-
+82a4-893ef08be813', 'created_at': datetime.datetime(2023, 3, 8, 9, 47, 39,
+778364), 'updated_at': datetime.datetime(2023, 3, 8, 9, 47, 39, 778374)}",
+"[BaseModel] (3b6ab950-8ee2-466f-99bb-09cf3f5b2eab) {'id': '3b6ab950-8ee2-466f-
+99bb-09cf3f5b2eab', 'created_at': datetime.datetime(2023, 3, 8, 12, 13, 6,605601
+), 'updated_at': datetime.datetime(2023, 3, 8, 12, 13, 6, 605608)}", "[User]
+(f641eac7-16d4-4dca-851f-12590d7c8ddd) {'id': 'f641eac7-16d4-4dca-851f-12590d7c
+8ddd', 'created_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254591), 'updated
+_at': datetime.datetime(2023, 3, 8, 12, 29, 30, 254599)}", "[BaseModel]
+(a28fc3de-8bf8-4d50-9908-ee55ba2b55d1) {'id': 'a28fc3de-8bf8-4d50-9908-ee55ba2b
+55d1', 'created_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820860), 'updated
+_at': datetime.datetime(2023, 3, 8, 12, 52, 17, 820867)}", "[BaseModel]
+(35f4e77f-d1b6-4cd6-8e15-100122cc075d) {'id': '35f4e77f-d1b6-4cd6-8e15-100122cc0
+75d', 'created_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216947), 'updated
+_at': datetime.datetime(2023, 3, 8, 12, 53, 24, 216956)}", "[User] (fe25b797-5be
+4-43ef-a74b-e603ee66a9b0) {'id': 'fe25b797-5be4-43ef-a74b-e603ee66a9b0', 'created
+_at': datetime.datetime(2023, 3, 8, 12, 54, 58, 121355), 'updated_at': datetime.
+datetime(2023, 3, 8, 12, 54, 58, 121363)}", "[User] (78073e0e-e652-49bc-a929-596
+c89de04be) {'id': '78073e0e-e652-49bc-a929-596c89de04be', 'created_at': datetime
+.datetime(2023, 3, 8, 13, 5, 9, 178703), 'updated_at': datetime.datetime(2023,
+3, 8, 13, 5, 9, 178710)}"]
 (hbnb)
 ```
 
@@ -215,7 +258,10 @@ c97fdfd4-691a-420e-9844-6cc7814178a9
 (hbnb)
 (hbnb) update User c97fdfd4-691a-420e-9844-6cc7814178a9 first_name "AirBnB"
 (hbnb) show User c97fdfd4-691a-420e-9844-6cc7814178a9
-[User] (c97fdfd4-691a-420e-9844-6cc7814178a9) {'id': 'c97fdfd4-691a-420e-9844-6cc7814178a9', 'created_at': datetime.datetime(2023, 3, 8, 13, 43, 3, 658005), 'updated_at': datetime.datetime(2023, 3, 8, 13, 43, 3, 658012), 'first_name': 'AirBnB'}
+[User] (c97fdfd4-691a-420e-9844-6cc7814178a9) {'id': 'c97fdfd4-691a-420e-9844-
+6cc7814178a9', 'created_at': datetime.datetime(2023, 3, 8, 13, 43, 3, 658005),
+'updated_at': datetime.datetime(2023, 3, 8, 13, 43, 3, 658012), 'first_name':
+'AirBnB'}
 (hbnb)
 (hbnb) User.update(c97fdfd4-691a-420e-9844-6cc7814178a9, address, "98 Mission St")
 (hbnb) User.show(c97fdfd4-691a-420e-9844-6cc7814178a9)
@@ -228,7 +274,7 @@ c97fdfd4-691a-420e-9844-6cc7814178a9
 
 ## Testing:
 
-Unittests for the HolbertonBnB project are defined in the [tests](./tests)
+Unittests for the AirBnB project are defined in the [tests](./tests)
 folder. To run the entire test suite simultaneously, execute the following command:
 
 ```
